@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*通用*/
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width:100%;
+}
+/*通用*/
+
+/*黑色蒙版*/
+.mask_black{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity = 75);
+    -moz-opacity: .75;
+    -khtml-opacity: .75;
+    opacity: .75;
+    background-color: #000;
+    z-index: 9998;
+    display: none;
+}
+/*黑色蒙版*/
+
+/*分享朋友圈蒙版*/
+.mask_share{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-image: url("../images/share.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+}
+/*分享朋友圈蒙版*/
+
+/*分享按钮*/
+.share_friends{
+    width: 7rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #feffa7;
+    border-radius: 0.5rem;
+    color: #FD746C;
+    position: relative;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
+}
+/*分享按钮*/
+
+
+
+
